@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "746597578622",
+    "project_id": "careernavigator-d3cda",
+    "storage_bucket": "careernavigator-d3cda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746597578622:android:f9430d26ca0a101552a52f",
+        "android_client_info": {
+          "package_name": "com.example.careernavigator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746597578622-hgkces5goqrhb97na87t01e0747rgodn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV0ANZxgQjoH3EpEKl3aeAk0zQHSp0jho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746597578622-hgkces5goqrhb97na87t01e0747rgodn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

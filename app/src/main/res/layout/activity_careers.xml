@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Careers">
+    <!-- Main Content -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Toolbar -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/darkblue"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LISTED BELOW ARE SOME CAREERS:"
+                android:textSize="18dp"
+                android:drawableStart="@drawable/baseline_arrow_back_ios_24"
+                android:drawableTint="@color/white"
+                android:id="@+id/backbtn"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                />
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/darkblue"
+            android:text="Remember, the most important factor is to find a career that aligns with your interests, values, and long-term goals. By considering these aspects, you'll be better equipped to make a decision that brings you fulfillment and satisfaction in your professional life."/>
+
+
+        <!-- Dashboard Cards -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/accountant"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ACCOUNTANT"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/architect"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ARCHITECT"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/chef"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHEF"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/data"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DATA ANALYST"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+            <!-- DOCTOR -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/med"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DOCTOR"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/eng"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ENGINEER (Civil, Mechanical, Electrical, etc.)"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/finance"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FINANCIAL ANALYST"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/graphic"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="GRAPHIC DESIGNER"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/hrm"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HUMAN RESOURCE MANAGER"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lawyer"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LAWYER"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/marketing"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MARKETING MANAGER"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nurse"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NURSE"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/operations"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OPERATIONS MANAGER"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pharmacy"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PHARMACIST"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/psychologist"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PSYCHOLOGIST"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/research"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RESEARCH SCIENTIST"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- SALES REP -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sales"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SALES REPRESENTATIVE"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+            <!-- SOFTWARE -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/softwaredeveloper"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SOFTWARE DEVELOPER"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/teacher"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your needs -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TEACHER"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/web"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:layout_margin="8dp"
+                android:layout_weight="1">
+
+                <!-- Customize the card layout as per your ne -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WEB DEVELOPER"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
